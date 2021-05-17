@@ -61,7 +61,7 @@ theme_minimal()+
 theme(legend.position = "none")+
 scale_x_date(limits = as.Date(c("2019-01-01", "2021-04-30")))
 
-ggplotly(p,tooltip="text")
+pply<-ggplotly(p,tooltip="text")
 
 # ###### Step 3: Interactive Visualization with plot_ly
 # ###### 3a: Generate colour scales
